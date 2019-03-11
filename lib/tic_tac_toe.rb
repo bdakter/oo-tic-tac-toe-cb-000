@@ -104,7 +104,7 @@ class TicTacToe
   def winner
     if over?
       winning_combo = won?
-      winning_combo[0]
+      p winning_combo[0]
     end
   end
 
