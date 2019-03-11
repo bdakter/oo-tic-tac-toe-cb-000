@@ -101,6 +101,13 @@ class TicTacToe
     full? || won? || draw?
   end
 
+  def winner
+    if over?
+      winner = won?[0]
+      board[winner]
+    end
+  end
+
 
 
 end
