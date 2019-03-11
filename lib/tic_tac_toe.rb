@@ -70,11 +70,11 @@ class TicTacToe
           win_index_1 = combo[0]
           win_index_2 = combo[1]
           win_index_3 = combo[2]
-  
+
         if
           (@board[win_index_1] == "X"  && @board[win_index_2] == "X"  && @board[win_index_3] == "X") ||
           (@board[win_index_1] == "O"  && @board[win_index_2] == "O"  && @board[win_index_3] == "O")
-  
+
           return combo
         end
       end
