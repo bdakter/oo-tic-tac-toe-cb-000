@@ -80,6 +80,10 @@ class TicTacToe
       end
   end
 
+  def full?
+    !@board.detect{|i| i == " "}
+  end
+
 
 
 end
