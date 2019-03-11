@@ -10,11 +10,11 @@ class TicTacToe
     [0, 4, 8],  #backslash
     [2, 4, 6]   #forward_slash
   ]
-  
+
   def initialize
     @board = Array.new(9, " ")
 
-  
+
   end
 
   def display_board
