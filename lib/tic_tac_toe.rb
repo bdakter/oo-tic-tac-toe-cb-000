@@ -75,7 +75,7 @@ class TicTacToe
           (@board[win_index_1] == "X"  && @board[win_index_2] == "X"  && @board[win_index_3] == "X") ||
           (@board[win_index_1] == "O"  && @board[win_index_2] == "O"  && @board[win_index_3] == "O")
 
-          return combo[0]
+          return combo
         end
       end
   end
@@ -103,7 +103,7 @@ class TicTacToe
 
   def winner
     if over?
-      won?
+      won?[0]
 
     end
   end
