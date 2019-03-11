@@ -84,6 +84,19 @@ class TicTacToe
     !@board.detect{|i| i == " "}
   end
 
+  def draw?
+    if
+      full? && !won?
+      true
+    elsif
+      full? && won?
+      false
+    else
+      !won?
+      false
+    end
+  end
+
 
 
 end
